@@ -39,7 +39,7 @@ app.use(cors({
 // cloude configration
 cloudinary.config({
     cloud_name: process.env.CLOUDINARY_DB,
-    api_key: process.env.CLOUDINARY_KEY,
+    api_key: process.env.CLOUDINARY_KEY,               
     api_secret: process.env.CLOUDINARY_SECRET
 })
 
